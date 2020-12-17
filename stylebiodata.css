@@ -1,0 +1,36 @@
+// Arya Septiawan
+// TI-2G
+
+
+ body{
+    background-image: url(Background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: 100%;
+	background-attachment: fixed;
+ }
+
+table,tr,td{
+    background-color: yellow;
+    font-family: Times New Roman;
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+ }
+ .h{
+    border: 8px groove yellow;
+    padding: 20px;
+ }
+ .posisi{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+ }

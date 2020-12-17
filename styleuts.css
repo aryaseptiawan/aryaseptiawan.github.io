@@ -1,0 +1,83 @@
+// Arya Septiawan
+// TI-2G
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url(Background.jpg);
+	background-position: center;
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: Times New Roman, Helvatica, sans-serif;
+
+}
+
+nav {
+	text-align: right;
+	width: 100%;
+	background-color: black;
+	color: #fff;
+}
+.sidebar-satu{
+	line-height: 45px;
+	font-weight: 700;
+	text-transform: uppercase text-transform;
+}
+.nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px; 
+}
+
+.menu_sidebar-satu:Hover {
+	background-color: #FFFF00;
+}
+.nav .sidebar-satu .menu_sidebar-satu{
+	display: inline-block;
+	position: relative;
+}
+
+.nav .sidebar-satu .menu_sidebar-satu a{
+	text-decoration: none;
+	padding: 16px 26px;
+	cursor: pointer;
+	text-decoration: none; 
+	color: #FFF;
+}
+.submenu{
+	text-align: left;
+	text-decoration: none;
+	display: none;
+	position: absolute;
+	width: 222px;
+	background-color: rgba(0,0,0,0.8);
+}
+.menu_sidebar-satu:Hover .submenu{
+	display: block;
+}
+.submenu_item:Hover {
+	background-color: rgba(0,0,0,0.5);
+	border-left: 8px solid #FFFF00;
+}
+
+.kolom-utama {
+	border-color: yellow;
+	width: 100%;
+	border-width: 5%;
+	color: #fff;
+	font-size: 25px;
+}
+
+.display-4 {
+	margin-bottom: 35px;
+	font-size: 35px;
+}
+
+.kolom-utama p {
+	text-align: center;
+	font-size: 25px;
+	color: black;
+}
